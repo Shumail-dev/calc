@@ -1,0 +1,23 @@
+<html>
+    <head>
+        <title> Calcultor </title>
+    </head>
+    <body bgcolor=#808080>
+        <div align="center">
+            <h1>Welcome To Calculator Page <br/></h1>
+            <br />
+            <form action="/calc" method="GET" target="result">
+                <p style="font-size:20px;">Enter number a: <input type="text" name="num1"> <br></p>
+                <p style="font-size:20px;">Enter number b: <input type="text" name="num2"> <br/></p>
+                <br/>
+                <input type="radio"  name="operand" value="add" > Add 
+                <input type="radio"  name="operand" value="sub"> Subtract 
+                <input type="radio"  name="operand" value="mul"> Multiply 
+                <input type="radio"  name="operand" value="div"> Divide <br />
+                <input type="submit" name="action" value="submit"> <br />
+            </form>
+            <iframe  name="result" src="" width="50px" height="50px">
+            </iframe>
+        </div>
+    </body>
+</html>
